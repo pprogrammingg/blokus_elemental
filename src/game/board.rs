@@ -4,7 +4,8 @@ const DEFAULT_BOARD_HEIGHT: usize = 20;
 pub struct Board {
     width: usize,
     height: usize,
-    grid: [[u8; DEFAULT_BOARD_WIDTH]; DEFAULT_BOARD_HEIGHT],
+    grid:
+     [[u8; DEFAULT_BOARD_WIDTH]; DEFAULT_BOARD_HEIGHT],
 }
 
 impl Board {

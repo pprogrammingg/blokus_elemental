@@ -10,12 +10,16 @@ fn main() {
     let mut board = Board::new();
     board.display();
 
-    let board = board.set_tile_value(0, 2, 1);
-    println!("new after setting");
-    board.display();
-    // give game config
+    // let board = board.set_tile_value(0, 2, 1);
+    // println!("new after setting");
+    // board.display();
+
+    // handle game custom configurations
+
     // initiate board, call UI render
-    // decide turn order, call UI render
+
+    // Start a loop to manage turn
+
     // while game_is_not_ended
     // choose the next valid player, allow UI to accept arrow key input for the player
     // and notify on screen the player's turn
