@@ -8,7 +8,6 @@ Table of Content
 - leaderboard to store user stats
 - Game State Persistence: how do we store the game state during play and in case of interruptions?
 - Synchronization across clients: making sure all players have a synchronized view of the game and de-synchronization does not happen
-- 
 - Validation and game rules enforcement: making sure logic is validated on the back-end and so that cheating can not happen
 - User auth and session keys: ability to enable login and session keys
 - Testing and Simulation: Using AI and bots to do stress testing. I prefer real people testing it sooner than later to fix glitches and 
