@@ -443,6 +443,7 @@ dependencies = [
  "actix-test",
  "actix-web",
  "actix-ws",
+ "awc",
  "config",
  "futures-util",
  "once_cell",
